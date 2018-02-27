@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.center_div{
+    margin: 0 auto;
+    width:80%
+}
+
+.btn_size{
+	margin: 5px;
+	width: 40%;
+}

@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+
+.dropdown-toggle{
+	cursor: pointer;
+}
+
+.logoutBtn {
+    /* Remove all decorations to look like normal text */
+    background: none;
+    border: none;
+    display: inline;
+    font: inherit;   
+    outline: none;
+    outline-offset: 0;
+    border-radius: 0 !important;
+    /* Additional styles to look like a link */
+    color: inherit;
+    cursor: pointer;
+    /*text-decoration: underline;
+     margin: 0;
+    padding: 0;
+    */
+}
+
+.logoutBtn:-moz-focus-inner,
+.logoutBtn::-moz-focus-inner {
+    border: none;
+    padding: 0;
+}
+
+.navbar {
+  margin-bottom: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 0;
+}
